@@ -1,0 +1,61 @@
+body {
+  background-color: lightblue;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #b1edda;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 2em 3em;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+ul {
+  /* Remove default bullets and spacing, arrange items side-by-side */
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+ul li {
+  /* Display list items inline for horizontal layout */
+  display: inline;
+}
+
+ul li a {
+  /* Style links: remove underline, set color and weight, add transition */
+  text-decoration: none;
+  color: #197278;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+ul li a:hover {
+  /* Change link color on hover */
+  color: #14505c;
+}
+
+/* Add your styles here */
